@@ -1,0 +1,33 @@
+body {
+margin:auto;
+text-align:center;
+font-size:xxx-large;
+font-family:Arial;
+}
+#me {
+width:20%;
+height:20%;
+border-style:solid;
+border-width:2px;
+border-color:#444444
+}
+#lkdin {
+width:30%;
+heigh:30%
+}
+#ghub {
+width:10%;
+heigh:10%
+}
+table {
+width:100%;
+table-layout:fixed
+}
+td {
+border-width:1px;
+border-style:solid
+}
+a {
+text-decoration:none;
+color:black
+}
