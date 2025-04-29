@@ -1,33 +1,114 @@
-body {
-margin:auto;
-text-align:center;
-font-size:xxx-large;
-font-family:Arial;
+body{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Calibri;
+    font-size: xx-large;
 }
-#me {
-width:20%;
-height:20%;
-border-style:solid;
-border-width:2px;
-border-color:#444444
+
+#top{
+    text-align: center;
+    background-color: #888888;
+    margin:0;
+    display: inline-block;
 }
-#lkdin {
-width:30%;
-heigh:30%
+
+#me{
+    width: 10%;
+    height: 10%;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 3px;
 }
-#ghub {
-width:10%;
-heigh:10%
+
+#lkdn{
+    width:30%;
+    height:30%;
 }
-table {
-width:100%;
-table-layout:fixed
+
+#ghub{
+    width:7%;
+    height:7%
 }
-td {
-border-width:1px;
-border-style:solid
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
-a {
-text-decoration:none;
-color:black
+
+#links{
+    width: 100%;
+    table-layout: fixed;
+}
+
+#links td:hover{
+    background-color: #aaaaaa;
+}
+
+#proj{
+    background-image: url(https://www.3cir.com/wp-content/uploads/2020/04/shutterstock_1708568206-scaled.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+    margin:0;
+    display: inline-block;
+    width: 100%;
+}
+
+#pyproj, #sqlproj, #mlproj{
+    width:100%;
+    table-layout: fixed;
+}
+
+#pyproj td, #sqlproj td, #mlproj td{
+    text-align: center;
+    font-weight: bold;
+}
+
+#pyproj td:hover,#sqlproj td:hover, #mlproj td:hover{
+    background-color: none;
+    color: rgba(255, 255, 255, 0);
+    background-blend-mode: normal;
+}
+
+#psprt{
+    background-image: url(https://i.vuzopedia.ru/storage/app/uploads/public/671/65e/f9a/67165ef9adbb4918875148.jpeg);
+}
+
+#stdexam{
+    background-image: url(https://cdn.culture.ru/images/202d6d17-caf0-5f15-9ea9-e687dfd1ed97);
+}
+
+#crypto{
+    background-image: url(https://public.bnbstatic.com/static/content/square/images/ec743ed6ad684a81bb780f7d04432ffc.png);
+}
+
+#emphis{
+    background-image: url(https://www.okta.com/sites/default/files/styles/1640w_scaled/public/media/image/2023-12/Screenshot%202023-12-05%20at%2012.15.26%20PM.png);
+}
+
+#choc{
+    background-image: url(https://i0.wp.com/aromakey.ru/wp-content/uploads/2021/04/scale_1200-2.jpeg);
+}
+
+#sales{
+    background-image: url(https://s0.rbk.ru/v6_top_pics/resized/1200xH/media/img/4/04/347089652810044.jpeg);
+}
+
+#amzn{
+    background-image: url(https://i.ytimg.com/vi/j2ZZNMbIg44/maxresdefault.jpg);
+}
+
+#fshn{
+    background-image: url(https://wallpapercave.com/wp/wp11002330.jpg);
+}
+
+#aicon{
+    background-image: url(https://public.bnbstatic.com/image/pgc/202402/8cf1baa0fc933f4a09e73b0a8be3957a.jpg);
+}
+
+#psprt,#stdexam,#crypto,#emphis,#choc,#sales,#amzn,#fshn,#aicon{
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
 }
