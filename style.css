@@ -45,24 +45,47 @@ a{
     background-color: #aaaaaa;
 }
 
-#proj{
-    background-image: url(https://www.3cir.com/wp-content/uploads/2020/04/shutterstock_1708568206-scaled.jpg);
-    background-size: cover;
-    background-color: rgba(255, 255, 255, 0.6);
-    background-blend-mode: lighten;
+#proj, #certs, #abtme, #skill{
     margin:0;
     display: inline-block;
     width: 100%;
 }
 
-#pyproj, #sqlproj, #mlproj{
+#proj, #certs, #abtme{
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+}
+
+#proj{
+    background-image: url(https://www.3cir.com/wp-content/uploads/2020/04/shutterstock_1708568206-scaled.jpg);
+}
+
+#certs{
+    background-image: url(https://i.pinimg.com/originals/48/c5/23/48c523c1b060afbbe417e9c45c3664db.jpg);
+}
+
+#abtme{
+    background-image: url(https://a-static.besthdwallpaper.com/dubai-skyscrapers-wallpaper-5120x2880-80270_55.jpg);
+}
+
+#skill{
+    background-color: #bbbbbb;
+}
+
+#pyproj, #sqlproj, #mlproj, #crtlnk, #about, #skl{
     width:100%;
     table-layout: fixed;
 }
 
-#pyproj td, #sqlproj td, #mlproj td{
+#pyproj td, #sqlproj td, #mlproj td, #crtlnk td, #about td, #skl{
     text-align: center;
     font-weight: bold;
+}
+
+#crtlnk td{
+    color:#ffffff;
+    background-color: #999999;
 }
 
 #pyproj td:hover,#sqlproj td:hover, #mlproj td:hover{
